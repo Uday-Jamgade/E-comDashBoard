@@ -1,0 +1,135 @@
+
+.Nav-ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.Nav-ul li a{
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+
+}
+.Nav-ul{
+    padding: 5px;
+    margin: 0;
+    background-color: skyblue;
+}
+
+.Footer{
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+ background-color: skyblue;
+ width: 100%;
+ padding: 5px;
+ margin: 0;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.sign-up input{
+    padding: 10px  150px;
+    margin: 25px 0px;
+    border: solid black;
+   
+   
+}
+
+.sign-up button {
+
+    padding:  6px  60px ;
+    background-color: skyblue;
+    font-weight: 700;
+    margin-left: -300px;
+}
+
+.login{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.login input{
+    padding: 10px  150px;
+    margin: 25px 0px;
+    border: solid black;
+}
+
+.login button {
+
+    padding:  6px  60px ;
+    background-color: skyblue;
+    font-weight: 700;
+    margin-left: -300px;
+}
+
+.nav-right{
+    text-align: right;
+}
+
+.AddProduct{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.AddProduct input {
+    padding: 10px  150px;
+    margin: 25px 0px;
+    border: solid black;
+}
+
+.AddProduct button{
+    padding:  6px  60px ;
+    background-color: skyblue;
+    font-weight: 700;
+    margin-left: -300px;
+}
+
+.invalid{
+    color: red;
+    margin-left: -380px;
+    margin-top: -20px;
+}
+
+.ProductList{
+    text-align: center;
+    margin-top: 50px;
+}
+.ProductList ul li{
+    display:  inline-block;
+    border: 1px solid skyblue;
+    padding: 5px;
+    width: 150px;
+}
+
+.ProductList ul{
+    margin: 0;
+}
+
+.search-product-box {
+    width: 400px;
+    margin: 20px;
+    height: 38px;
+    padding-left: 30px;
+    border: solid 1px skyblue;
+    border-radius: 20px;
+  }
+
+  .Logout{
+    background: red;
+    border: 2px solid black;
+    border-radius: 20px;
+
+  }
